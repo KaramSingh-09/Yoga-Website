@@ -1,0 +1,169 @@
+html,body { font-family: arial, helvetica, sans serif; font-size:16px; height: 100%; }
+
+body { margin: 0px; background-color: white; /*background:url(images/none.jpg); background-attachment: scroll;  background-position: center; background-repeat: repeat-y; */ color: #123456; font-family: arial, helvetica, sans-serif; }
+
+/* Main Divs */
+
+div#ContainAll { width:1000px; border: 0px solid black; margin: 0 auto; }
+
+div#LeftSide { float:left; width: 250px; text-align: center; }
+div#MainLogo { margin-top: 5px; }
+h1#SiteTitle { display:inline; }
+div#MainMenu { margin-top: 10px; }
+	
+	
+div#RightSide { margin-left: 210px; width: 790px; position: relative; }
+div#Header { position:relative; width:790px; height: 455px; font-size: 18px; color: #123456; }
+	div#TwitterBox { position: absolute; left: 430px; top: 24px; height:154px; overflow:hidden; border:1px solid black; }
+	div#TwitterFeed { position: relative; top: -35px; }
+	div#Banner { position: absolute; left: 60px; top: 205px; width:626px; height:266px; display:block; text-align:center; }
+	
+	
+div#MainTitle { position: absolute; left: 35px; top: 30px; }
+div#Body { margin-left: 65px; width: 630px; font-size: 100%; color:#123456; }
+div#SiteTitle { font-size:32px; font-weight:900; display:inline; margin: auto; }
+div#PageTitle { position:relative; left:-45px; }
+			
+div#Footer { position:relative; background-color:white; margin: 30px auto; width:100%; text-align: center; color:#123456; }
+p#FooterP { position:absolute; bottom:-120px; left:280px; }
+
+
+
+img#MainTitleMobi { display:none; }
+img#Massage { display:none; }
+img#Training { display:none; }
+img#Arts { display:none; }
+img#Nepal { display:none; }
+img.smedia { margin: 20px 8px 0 8px; }
+img#insta { display:none }
+div#LeftSide a:hover { border: 0px; }
+
+
+
+
+	img#banner { position:relative; margin-bottom: -15px; display:block; }
+	
+/* for Resources pages */
+iframe#headstandvid { width:626px; height:266px;}
+div#charts { width:750px; margin-left:-150px; }
+div.chakrabase { float:left; width:60px; text-align:center; }
+div.chakrabase div { height:60px; }
+div.chakrascroll { margin-left:64px; overflow-x:auto; overflow-x:scroll; border-width: 0 1px; border-color: black; border-style:solid; }
+div.chakracolumn  { float:left; text-align:center; padding:0 5px; border-right: 1px solid black; }
+div.chakracolumn  div { height:60px; line-height: 55px; border-bottom: 1px solid black; overflow-x:hidden; overflow-y: auto; }
+div.chakracolumn  div span { display: inline-block; white-space:nowrap; vertical-align: middle; line-height: normal; }
+div#mobilescroll { display:none; }
+/* end Resources */
+
+
+/* for Nepal pages */
+	div.inbanner { display:block; }
+	div#inbannerleft { width:270px; height:230px; float:left; text-align:center; }
+	div#inbannerright { width:360px; height:230px; margin-left:270px; text-align:center; }
+	span#ncaption { font-size:smaller; position:relative; top:-7px; }
+	img#npic { height: 230px; margin-top:5px; }
+	img.nthumb { height:70px; margin-top:5px; margin-left:10px; cursor:hand; cursor: pointer; }
+	
+	div#nepalphotos { position:relative; left:-250px; } 
+	div.nphotorow { width:950px; margin-left:60px; white-space:nowrap; position:relative; }
+div.nepalphoto { margin: 10px 0; margin-left:20px; width:450px; white-space: normal; display:inline-block; vertical-align: top; }
+div.nepalphoto img { border: 2px solid #123456; margin: 0 auto; }
+div.nphotorow hr { color: #123456; width:100%; }
+img.nplace { margin: 0 15px; }
+/* end Nepal pages */
+	
+
+/* india photos page */
+div#IndiaBanner { position: absolute; left: 60px; top: 205px; display:block; text-align:center; }
+div#IndiaHeader { position:relative; width:700px; height: 660px; }
+	
+div.indiatext { margin:0 10px; } 
+	img#mainimage { } 
+	div#imagenav { float:right; margin-right:20px; } 
+	div#photoinfo { margin:15px 0 8px 0; text-align:center; }
+	
+div#indiathumbs { margin:0 auto; width:800px; margin-top:45px; text-align: center; position:relative; left:-130px; }
+	div#indiathumbs p { font-size:15px; font-weight:bolder; }
+	span#thumbnav img { padding-top: 0px; }
+	img#left { margin-right:370px; position:relative; top:-42px; left:-10px; }
+	img#right { margin-left:370px; position:relative; top:-42px; left:0px;}
+	span#pagenumba { display: none; }
+/* end india photos page */ 
+
+
+/* Meditation page */
+div#medposes { width:1000px; margin-left:-180px; white-space:nowrap; }
+div.medpose { width:180px; white-space: normal; display:inline-block; } 
+div.medpose p { text-align:left; font-size: smaller; padding:0 7px; }
+div.medpose span { margin: 0 5px; }
+div.medpose img { float:left; width:180px; }
+span.thetop { display:none; }
+div#postmed /*copies Body div*/ { margin-left: 65px; width: 630px; font-size: 100%; color:#123456; }
+/* finish Meditation page */
+
+/* FAQ page */
+span.qfora { font-weight: bold; cursor: pointer; cursor: hand; }
+div.hideme { display: none; }
+div.faqtitle { text-align: center; font-weight:bold; text-decoration: underline; text-transform:uppercase; }
+/* end FAQ page */
+
+
+/* Partner page */
+div#LeftSideP { float:left; width: 250px; text-align: center;  }
+div#HeaderP { position:relative; width:790px; height: 595px; font-size: 18px; color: #123456;  }
+div#fiver { margin-top:5px; } 
+img.pthumb { width: 80px; margin: 0 2px; }
+div.onmobi { display:none; }
+span.onmobi { display:none; }
+/* end Partner page */
+
+img.artspic { height:80px; width:80px; border:1px solid black; margin-right:10px; }
+
+/* Header area */
+
+
+img.FloatLeft { float:left; margin-left: 20px; margin-right:20px; }
+
+span#address { font-size:14px; color: #123456; }
+
+
+
+/* Left Side */
+
+
+
+a:link.MainNav    { margin: 8px; text-decoration: none;  color: #000000; }
+a:visited.MainNav { margin: 8px; text-decoration: none; color: #000000; }
+a:hover.MainNav  { margin: 8px; text-decoration: none; color: #4870d4; }
+a:active.MainNav  { margin: 8px; text-decoration: none; color: #000000; }
+
+
+
+/* Body area */
+
+
+
+div.banner2 { text-align:center; }
+img.banner2 { position:relative; top:-15px; left:-10px; margin-bottom: -15px; display:block; }
+
+
+font.clvl { font-size: 80%; font-style: italic; }
+
+span.qfora { font-weight: bold; cursor: hand; }
+div.hideme { display: none; }
+div.faqtitle { text-align: center; font-weight:bold; text-decoration: underline; text-transform:uppercase; }
+/* Links */
+a:link    { text-decoration: underline; font-weight:bolder; color: #123456; }
+a:visited { text-decoration: underline; font-weight:bolder; color: #123456; }
+a:hover   { text-decoration: underline; font-weight:bolder; color: #4870d4; }
+a:active  { text-decoration: underline; font-weight:bolder; color: #123456; }
+/* old blue #243569 */
+
+
+div#PageTitle h1{ font-size: 150%; display:block; text-align: center; margin-left:30px; }
+div#SecondTitle h1{ font-size: 150%; display:block; text-align: left; margin-left:200px; }
+
+h2 { display:inline; }
+img { border: 0px; }
+br.half { font-size: 7px; }
+div.centered { text-align:center; }
